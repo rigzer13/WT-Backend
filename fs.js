@@ -4,9 +4,9 @@ fs.open("Chalk.js","r",(err,fd)=>{
         console.log(err);
     }
     else{
-        console.log("successfully opened");
-        fs.close(fd);
+       fs.write(fs,'hello',(err,fd))
     }
     
 }
 )
+
