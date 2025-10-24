@@ -9,4 +9,6 @@ fs.open("Chalk.js","r",(err,fd)=>{
     
 }
 )
+//fs.writeFile
+
 

@@ -7,11 +7,13 @@ fs.appendFile('sample.txt',"Yosh",(err)=>{
         }
     });
 
-   fs.unlink('sample.txt',(err)=>{
+   /*fs.unlink('sample.txt',(err)=>{
     if(err){
         console.log(err);
     }
     else{
         console.log("deleted successfully")
     }
-   }) 
+   }) */
+
+ 
